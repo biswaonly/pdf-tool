@@ -435,7 +435,8 @@ class PdfWizard(QMainWindow, Ui_MainWindow):
                     color=font_color,  # Font color
                 )
             # Save the watermarked PDF
-            pdf.save('watermarked_output.pdf')  # Replace with your desired output PDF file name
+            output_file = os.path.join(output_path, "watermarked_output.pdf")
+            pdf.save(output_file)  # Replace with your desired output PDF file name
 
             # Close the PDF file
             pdf.close()

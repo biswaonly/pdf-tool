@@ -1,3 +1,2 @@
-PyQt5
 pymupdf
-PyQt6
+PySide6

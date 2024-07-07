@@ -23,7 +23,7 @@ def start_application():
 if __name__ == "__main__":
     app = QApplication(sys.argv)
 
-    app_icon = QIcon("pdf-icon.ico")
+    app_icon = QIcon("pdf_icon.ico")
     app.setWindowIcon(app_icon)
 
     # Show loading screen immediately
